@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Kevin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Kevin</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="Tentang Saya.html">Tentang Saya</a></li>
+                <li><a href="#">Kontak Saya</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <P class="tittle">Hello, I'am <span class="auto-type">Programmer</span></P>
+            <p class="deskripsi">Junior Web Developer</p>
+            <img src="Asset/Foto/kepin.jpg" alt="kevin" class="image-foto"/>
+        </div>
+    </div>
+    <div class="paralax">
+        <div class="tentang">
+                <P class="tittle">Personal Portofolio</P>
+                <p class="deskripsi">Mahasiswa D3 Teknik Informatika</p>
+            <div class="mt-10">
+                <a href="mailto:kevinifanka98@gmail.com" class="btn-cta">Klik Jika Ingin Kolaborasi</a>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Kevin Ifanka 2024</p>
+    </footer>
+
+
+
+
+
+
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://instagram.com/kepin.n06";
+        }
+    </script>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Programmer", "Youtuber"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        });
+    </script>
+    
